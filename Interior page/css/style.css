@@ -1,0 +1,99 @@
+body {
+    background-color: ".";
+}
+.nav {
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    padding: 40px;
+}
+.nav img {
+    width: 20%;
+    height: 70%;
+}
+.right button {
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.center a {
+    color: black;
+    font-size:20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.testimonial-container img {
+    width: 50%;
+    height: 80%;
+    background: gray;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.column {
+    flex: 1;
+    border: 1px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button {
+    float: right;
+    padding: 20px;
+}
+.footer {
+    background-color: white;
+    color: darkblue;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img{
+    width:60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 10px; /* Gap between grid items */
+    padding: 20px;
+    background-color: darkblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.grid-item {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container button {
+    padding: 20px;
+    background-color: blueviolet;
+    color: azure;
+}
+
+
+/*responsive code*/
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+}
